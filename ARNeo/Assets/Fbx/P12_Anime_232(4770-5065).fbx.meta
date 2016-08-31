@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: f523ef1390335d74cb7204dcc902f21b
+timeCreated: 1472631805
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Objets_P12:marqueur03
+    100002: Objets_P12:objets
+    100004: Objets_P12:panneau_pieton04
+    100006: Objets_P12:panneau_pieton05
+    100008: Objets_P12:panneau_pieton06
+    100010: Objets_P12:panneau_pieton07
+    100012: Objets_P12:panneau_pieton08
+    100014: Objets_P12:panneau_pieton09
+    100016: Objets_P12:passage_pieton_2
+    100018: Objets_P12:passage_pieton_3
+    100020: Objets_P12:passage_pieton_4
+    100022: Objets_P12:passage_pieton_5
+    100024: Objets_P12:passage_pieton_6
+    100026: Objets_P12:passage_pieton_7
+    100028: //RootNode
+    100030: Ylo_rig:UNITY
+    100032: Ylo_rig:unity_joint001
+    100034: Ylo_rig:unity_joint002
+    100036: Ylo_rig:unity_joint003
+    100038: Ylo_rig:unity_joint004
+    100040: Ylo_rig:unity_joint005
+    100042: Ylo_rig:unity_joint006
+    100044: Ylo_rig:unity_joint007
+    100046: Ylo_rig:unity_joint008
+    100048: Ylo_rig:unity_joint009
+    100050: Ylo_rig:unity_joint010
+    100052: Ylo_rig:unity_joint011
+    100054: Ylo_rig:unity_joint012
+    100056: Ylo_rig:unity_joint013
+    100058: Ylo_rig:unity_joint014
+    100060: Ylo_rig:unity_joint015
+    100062: Ylo_rig:unity_joint016
+    100064: Ylo_rig:unity_joint017
+    100066: Ylo_rig:unity_joint018
+    100068: Ylo_rig:unity_joint019
+    100070: Ylo_rig:unity_joint020
+    100072: Ylo_rig:unity_joint021
+    100074: Ylo_rig:unity_joint022
+    100076: Ylo_rig:unity_joint023
+    100078: Ylo_rig:unity_joint024
+    100080: Ylo_rig:unity_joint025
+    100082: Ylo_rig:unity_joint026
+    100084: Ylo_rig:unity_joint027
+    100086: Ylo_rig:unity_joint028
+    100088: Ylo_rig:unity_joint029
+    100090: Ylo_rig:unity_joint030
+    100092: Ylo_rig:unity_joint031
+    100094: Ylo_rig:unity_joint032
+    100096: Ylo_rig:unity_joint033
+    100098: Ylo_rig:unity_joint034
+    100100: Ylo_rig:unity_joint035
+    100102: Ylo_rig:unity_joint036
+    100104: Ylo_rig:unity_joint037
+    100106: Ylo_rig:unity_joint038
+    100108: Ylo_rig:unity_joint039
+    100110: Ylo_rig:unity_joint040
+    100112: Ylo_rig:unity_joint041
+    100114: Ylo_rig:unity_joint042
+    100116: Ylo_rig:unity_joint043
+    100118: Ylo_rig:unity_joint044
+    100120: Ylo_rig:unity_joint045
+    100122: Ylo_rig:unity_joint046
+    100124: Ylo_rig:unity_joint047
+    100126: Ylo_rig:unity_joint048
+    100128: Ylo_rig:unity_joint049
+    100130: Ylo_rig:unity_joint050
+    100132: Ylo_rig:unity_joint051
+    100134: Ylo_rig:unity_joint052
+    100136: Ylo_rig:unity_joint053
+    100138: Ylo_rig:unity_joint054
+    100140: Ylo_rig:unity_joint055
+    100142: Ylo_rig:unity_joint056
+    100144: Ylo_rig:unity_joint057
+    100146: Ylo_rig:unity_joint058
+    100148: Ylo_rig:unity_joint059
+    100150: Ylo_rig:unity_joint060
+    100152: Ylo_rig:unity_joint061
+    100154: Ylo_rig:unity_joint062
+    100156: Ylo_rig:unity_joint063
+    100158: Ylo_rig:unity_joint064
+    100160: Ylo_rig:unity_joint065
+    100162: Ylo_rig:unity_joint066
+    100164: Ylo_rig:unity_joint067
+    100166: Ylo_rig:unity_joint068
+    100168: Ylo_rig:unity_joint069
+    100170: Ylo_rig:unity_joint070
+    100172: Ylo_rig:unity_joint071
+    100174: Ylo_rig:unity_joint072
+    100176: Ylo_rig:unity_joint073
+    100178: Ylo_rig:unity_joint074
+    100180: Ylo_rig:unity_joint075
+    100182: Ylo_rig:unity_joint076
+    100184: Ylo_rig:unity_joint077
+    100186: Ylo_rig:unity_joint078
+    100188: Ylo_rig:unity_joint079
+    100190: Ylo_rig:unity_joint080
+    100192: Ylo_rig:unity_joint081
+    100194: Ylo_rig:unity_joint082
+    100196: Ylo_rig:unity_joint083
+    100198: Ylo_rig:unity_joint084
+    100200: Ylo_rig:unity_joint085
+    100202: Ylo_rig:unity_joint086
+    100204: Ylo_rig:unity_joint087
+    100206: Ylo_rig:unity_joint088
+    100208: Ylo_rig:unity_joint089
+    100210: Ylo_rig:unity_joint090
+    100212: Ylo_rig:unity_joint091
+    100214: Ylo_rig:unity_joint092
+    100216: Ylo_rig:unity_joint093
+    100218: Ylo_rig:unity_joint094
+    100220: Ylo_rig:unity_joint095
+    100222: Ylo_rig:unity_joint096
+    100224: Ylo_rig:unity_joint097
+    100226: Ylo_rig:unity_joint098
+    100228: Ylo_rig:unity_joint099
+    100230: Ylo_rig:unity_joint100
+    100232: Ylo_rig:unity_joint101
+    100234: Ylo_rig:unity_joint102
+    100236: Ylo_rig:unity_joint103
+    100238: Ylo_rig:unity_joint104
+    100240: Ylo_rig:unity_joint105
+    100242: Ylo_rig:unity_joint106
+    100244: Ylo_rig:unity_joint107
+    100246: Ylo_rig:unity_joint108
+    100248: Ylo_rig:unity_joint109
+    100250: Ylo_rig:unity_joint110
+    100252: Ylo_rig:unity_joint111
+    100254: Ylo_rig:unity_joint112
+    100256: Ylo_rig:unity_joint113
+    100258: Ylo_rig:unity_joint114
+    100260: Ylo_rig:unity_skin
+    400000: Objets_P12:marqueur03
+    400002: Objets_P12:objets
+    400004: Objets_P12:panneau_pieton04
+    400006: Objets_P12:panneau_pieton05
+    400008: Objets_P12:panneau_pieton06
+    400010: Objets_P12:panneau_pieton07
+    400012: Objets_P12:panneau_pieton08
+    400014: Objets_P12:panneau_pieton09
+    400016: Objets_P12:passage_pieton_2
+    400018: Objets_P12:passage_pieton_3
+    400020: Objets_P12:passage_pieton_4
+    400022: Objets_P12:passage_pieton_5
+    400024: Objets_P12:passage_pieton_6
+    400026: Objets_P12:passage_pieton_7
+    400028: //RootNode
+    400030: Ylo_rig:UNITY
+    400032: Ylo_rig:unity_joint001
+    400034: Ylo_rig:unity_joint002
+    400036: Ylo_rig:unity_joint003
+    400038: Ylo_rig:unity_joint004
+    400040: Ylo_rig:unity_joint005
+    400042: Ylo_rig:unity_joint006
+    400044: Ylo_rig:unity_joint007
+    400046: Ylo_rig:unity_joint008
+    400048: Ylo_rig:unity_joint009
+    400050: Ylo_rig:unity_joint010
+    400052: Ylo_rig:unity_joint011
+    400054: Ylo_rig:unity_joint012
+    400056: Ylo_rig:unity_joint013
+    400058: Ylo_rig:unity_joint014
+    400060: Ylo_rig:unity_joint015
+    400062: Ylo_rig:unity_joint016
+    400064: Ylo_rig:unity_joint017
+    400066: Ylo_rig:unity_joint018
+    400068: Ylo_rig:unity_joint019
+    400070: Ylo_rig:unity_joint020
+    400072: Ylo_rig:unity_joint021
+    400074: Ylo_rig:unity_joint022
+    400076: Ylo_rig:unity_joint023
+    400078: Ylo_rig:unity_joint024
+    400080: Ylo_rig:unity_joint025
+    400082: Ylo_rig:unity_joint026
+    400084: Ylo_rig:unity_joint027
+    400086: Ylo_rig:unity_joint028
+    400088: Ylo_rig:unity_joint029
+    400090: Ylo_rig:unity_joint030
+    400092: Ylo_rig:unity_joint031
+    400094: Ylo_rig:unity_joint032
+    400096: Ylo_rig:unity_joint033
+    400098: Ylo_rig:unity_joint034
+    400100: Ylo_rig:unity_joint035
+    400102: Ylo_rig:unity_joint036
+    400104: Ylo_rig:unity_joint037
+    400106: Ylo_rig:unity_joint038
+    400108: Ylo_rig:unity_joint039
+    400110: Ylo_rig:unity_joint040
+    400112: Ylo_rig:unity_joint041
+    400114: Ylo_rig:unity_joint042
+    400116: Ylo_rig:unity_joint043
+    400118: Ylo_rig:unity_joint044
+    400120: Ylo_rig:unity_joint045
+    400122: Ylo_rig:unity_joint046
+    400124: Ylo_rig:unity_joint047
+    400126: Ylo_rig:unity_joint048
+    400128: Ylo_rig:unity_joint049
+    400130: Ylo_rig:unity_joint050
+    400132: Ylo_rig:unity_joint051
+    400134: Ylo_rig:unity_joint052
+    400136: Ylo_rig:unity_joint053
+    400138: Ylo_rig:unity_joint054
+    400140: Ylo_rig:unity_joint055
+    400142: Ylo_rig:unity_joint056
+    400144: Ylo_rig:unity_joint057
+    400146: Ylo_rig:unity_joint058
+    400148: Ylo_rig:unity_joint059
+    400150: Ylo_rig:unity_joint060
+    400152: Ylo_rig:unity_joint061
+    400154: Ylo_rig:unity_joint062
+    400156: Ylo_rig:unity_joint063
+    400158: Ylo_rig:unity_joint064
+    400160: Ylo_rig:unity_joint065
+    400162: Ylo_rig:unity_joint066
+    400164: Ylo_rig:unity_joint067
+    400166: Ylo_rig:unity_joint068
+    400168: Ylo_rig:unity_joint069
+    400170: Ylo_rig:unity_joint070
+    400172: Ylo_rig:unity_joint071
+    400174: Ylo_rig:unity_joint072
+    400176: Ylo_rig:unity_joint073
+    400178: Ylo_rig:unity_joint074
+    400180: Ylo_rig:unity_joint075
+    400182: Ylo_rig:unity_joint076
+    400184: Ylo_rig:unity_joint077
+    400186: Ylo_rig:unity_joint078
+    400188: Ylo_rig:unity_joint079
+    400190: Ylo_rig:unity_joint080
+    400192: Ylo_rig:unity_joint081
+    400194: Ylo_rig:unity_joint082
+    400196: Ylo_rig:unity_joint083
+    400198: Ylo_rig:unity_joint084
+    400200: Ylo_rig:unity_joint085
+    400202: Ylo_rig:unity_joint086
+    400204: Ylo_rig:unity_joint087
+    400206: Ylo_rig:unity_joint088
+    400208: Ylo_rig:unity_joint089
+    400210: Ylo_rig:unity_joint090
+    400212: Ylo_rig:unity_joint091
+    400214: Ylo_rig:unity_joint092
+    400216: Ylo_rig:unity_joint093
+    400218: Ylo_rig:unity_joint094
+    400220: Ylo_rig:unity_joint095
+    400222: Ylo_rig:unity_joint096
+    400224: Ylo_rig:unity_joint097
+    400226: Ylo_rig:unity_joint098
+    400228: Ylo_rig:unity_joint099
+    400230: Ylo_rig:unity_joint100
+    400232: Ylo_rig:unity_joint101
+    400234: Ylo_rig:unity_joint102
+    400236: Ylo_rig:unity_joint103
+    400238: Ylo_rig:unity_joint104
+    400240: Ylo_rig:unity_joint105
+    400242: Ylo_rig:unity_joint106
+    400244: Ylo_rig:unity_joint107
+    400246: Ylo_rig:unity_joint108
+    400248: Ylo_rig:unity_joint109
+    400250: Ylo_rig:unity_joint110
+    400252: Ylo_rig:unity_joint111
+    400254: Ylo_rig:unity_joint112
+    400256: Ylo_rig:unity_joint113
+    400258: Ylo_rig:unity_joint114
+    400260: Ylo_rig:unity_skin
+    2300000: Objets_P12:marqueur03
+    2300002: Objets_P12:panneau_pieton04
+    2300004: Objets_P12:panneau_pieton05
+    2300006: Objets_P12:panneau_pieton06
+    2300008: Objets_P12:panneau_pieton07
+    2300010: Objets_P12:panneau_pieton08
+    2300012: Objets_P12:panneau_pieton09
+    2300014: Objets_P12:passage_pieton_2
+    2300016: Objets_P12:passage_pieton_3
+    2300018: Objets_P12:passage_pieton_4
+    2300020: Objets_P12:passage_pieton_5
+    2300022: Objets_P12:passage_pieton_6
+    2300024: Objets_P12:passage_pieton_7
+    3300000: Objets_P12:marqueur03
+    3300002: Objets_P12:panneau_pieton04
+    3300004: Objets_P12:panneau_pieton05
+    3300006: Objets_P12:panneau_pieton06
+    3300008: Objets_P12:panneau_pieton07
+    3300010: Objets_P12:panneau_pieton08
+    3300012: Objets_P12:panneau_pieton09
+    3300014: Objets_P12:passage_pieton_2
+    3300016: Objets_P12:passage_pieton_3
+    3300018: Objets_P12:passage_pieton_4
+    3300020: Objets_P12:passage_pieton_5
+    3300022: Objets_P12:passage_pieton_6
+    3300024: Objets_P12:passage_pieton_7
+    4300000: Ylo_rig:unity_skin
+    4300002: Objets_P12:marqueur03
+    4300004: Objets_P12:passage_pieton_2
+    4300006: Objets_P12:passage_pieton_3
+    4300008: Objets_P12:passage_pieton_4
+    4300010: Objets_P12:passage_pieton_5
+    4300012: Objets_P12:passage_pieton_6
+    4300014: Objets_P12:passage_pieton_7
+    4300016: Objets_P12:panneau_pieton04
+    4300018: Objets_P12:panneau_pieton05
+    4300020: Objets_P12:panneau_pieton06
+    4300022: Objets_P12:panneau_pieton07
+    4300024: Objets_P12:panneau_pieton08
+    4300026: Objets_P12:panneau_pieton09
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Ylo_rig:unity_skin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 4770
+      lastFrame: 5069
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Objets_P12:objets
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:marqueur03
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton04
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton05
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton06
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton07
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton08
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:panneau_pieton09
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_2
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_3
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_4
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_5
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_6
+        weight: 1
+      - path: Objets_P12:objets/Objets_P12:passage_pieton_7
+        weight: 1
+      - path: Ylo_rig:UNITY
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint001
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint002
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint003
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint004
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint005
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint006
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint007
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint008
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint009
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint010
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint011
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint012
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint013
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint014
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint015
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint016
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint017
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint018
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint019
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint020
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint021
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint022
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint023
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint024
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint025
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint026
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint027
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint028
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint029
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint030
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint031
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint032
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint033
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint034
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint035
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint036
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint037
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint038
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint039
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint040
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint041
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint042
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint043
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint044
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint045
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint046
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint047
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint048
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint049
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint050
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint051
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint052
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint053
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint054
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint055
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint056
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint057
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint058
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint059
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint060
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint061
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint062
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint063
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint064
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint065
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint066
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint067
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint068
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint069
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint070
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint071
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint072
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint073
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint074
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint075
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint076
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint077
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint078
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint079
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint080
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint081
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint082
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint083
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint084
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint085
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint086
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint087
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint088
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint089
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint090
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint091
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint092
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint093
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint094
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint095
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint096
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint097
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint098
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint099
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint100
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint101
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint102
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint103
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint104
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint105
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint106
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint107
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint108
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint109
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint110
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint111
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint112
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint113
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_joint114
+        weight: 1
+      - path: Ylo_rig:UNITY/Ylo_rig:unity_skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

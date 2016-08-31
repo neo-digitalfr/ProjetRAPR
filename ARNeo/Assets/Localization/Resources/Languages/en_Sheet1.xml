@@ -1,0 +1,8 @@
+<entries>
+<entry name="TEST_CHARACTERS">&quot;Qoute&quot; - Dog&apos;s &amp; Cats didn&apos;t</entry>
+<entry name="MAIN_INTRO">Introduction text:
+Second line   X.</entry>
+<entry name="MAIN_PROGRESSBAR">Progress: {X}%</entry>
+<entry name="MAIN_SELECT_LANGUAGE">Select language:</entry>
+<entry name="MAIN_WELCOME">Welcome!</entry>
+</entries>
