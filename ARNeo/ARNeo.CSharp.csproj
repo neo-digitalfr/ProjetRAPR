@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Misc\ExtensionMethods.cs" />
     <Compile Include="Assets\Scripts\Misc\FPSCounter.cs" />
     <Compile Include="Assets\Scripts\Misc\HUDFPS.cs" />
+    <Compile Include="Assets\Scripts\TWEAK\TWEAK_EnableLight.cs" />
     <Compile Include="Assets\Scripts\TWEAK\TWEAK_IgnoreTimeScale.cs" />
     <Compile Include="Assets\Scripts\UI\Engine\UI_LocalisedText.cs" />
     <Compile Include="Assets\Scripts\UI\Engine\UI_Manager.cs" />
@@ -243,6 +244,9 @@
     <None Include="Assets\Plugins\DarkTonic\MasterAudio\ReleaseNotes.txt" />
     <None Include="Assets\Plugins\Editor\RelationsInspector\README.txt" />
     <None Include="Assets\Plugins\Editor\RelationsInspector\changelog.txt" />
+    <None Include="Assets\Shaders\Mobile-Particle-Alpha.shader" />
+    <None Include="Assets\Shaders\Unlit-Alpha Additive.shader" />
+    <None Include="Assets\Shaders\Unlit-Alpha.shader" />
     <None Include="Assets\StreamingAssets\QCAR\ARNeo.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

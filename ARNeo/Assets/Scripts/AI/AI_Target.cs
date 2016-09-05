@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Vuforia;
+using DarkTonic.MasterAudio;
 
 public class AI_Target : MonoBehaviour, ITrackableEventHandler
 {
+    public int index;
     private Animation m_aniAnimation;
 
     private TrackableBehaviour mTrackableBehaviour;
-
+    private TWEAK_EnableLight mEnableLight;
 
     private void Awake()
     {
         m_aniAnimation = GetComponentInChildren<Animation>();
+        mEnableLight = GetComponent<TWEAK_EnableLight>();
     }
 
     void Start()
@@ -21,6 +24,7 @@ public class AI_Target : MonoBehaviour, ITrackableEventHandler
         {
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         }
+        CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
     }
 
     /// <summary>
@@ -35,10 +39,36 @@ public class AI_Target : MonoBehaviour, ITrackableEventHandler
             newStatus == TrackableBehaviour.Status.TRACKED ||
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
-            Debug.Log("Trackinnnnggg");
+            StartCoroutine(WaitForAnimation());
+        }
+        else
+        {
             m_aniAnimation.Stop();
-            m_aniAnimation.Play();
+            MasterAudio.StopAllOfSound("Page" + index);
         }
 
+        if(mEnableLight)
+        {
+            mEnableLight.DisableGreenLight();
+            mEnableLight.DisableRedLight();
+        }
     }
+
+    private IEnumerator WaitForAnimation()
+    {
+        PlayAnimation();
+        do
+        {
+            yield return null;
+        } while (m_aniAnimation.isPlaying);
+        StartCoroutine(WaitForAnimation());
+    }
+
+    private void PlayAnimation()
+    {
+        m_aniAnimation.Stop();
+        m_aniAnimation.Play();
+        MasterAudio.PlaySound("Page" + index);
+    }
+
 }

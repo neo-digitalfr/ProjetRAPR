@@ -40,6 +40,8 @@ public class UI_HomeManager : UI_Manager
         }
         else if (viewType == typeof(UI_ViewHomeStep2))
         {
+            ((UI_TweenPosition)m_viewHomeStep2.m_tweenShow).m_vFrom = new Vector3(0, 0, 0);
+            ((UI_TweenPosition)m_viewHomeStep2.m_tweenHide).m_vTo = new Vector3(-1, 0, 0);
             HideView(m_viewHomeStep2);
             HideViewBack(AnimationViewType.ANIMATED);
         }
