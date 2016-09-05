@@ -35,6 +35,7 @@ public class AI_Target : MonoBehaviour, ITrackableEventHandler
                                     TrackableBehaviour.Status previousStatus,
                                     TrackableBehaviour.Status newStatus)
     {
+        StopAllCoroutines();
         if (newStatus == TrackableBehaviour.Status.DETECTED ||
             newStatus == TrackableBehaviour.Status.TRACKED ||
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
@@ -68,6 +69,7 @@ public class AI_Target : MonoBehaviour, ITrackableEventHandler
     {
         m_aniAnimation.Stop();
         m_aniAnimation.Play();
+        MasterAudio.StopAllOfSound("Page" + index);
         MasterAudio.PlaySound("Page" + index);
     }
 

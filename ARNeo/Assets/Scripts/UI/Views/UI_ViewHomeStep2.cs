@@ -12,7 +12,7 @@ public class UI_ViewHomeStep2: UI_View
     }
 
     public void Next()
-    {
+    {        
         UI_HomeManager.GetInstance().HideView<UI_ViewHomeStep2>();
     }
 
@@ -26,8 +26,7 @@ public class UI_ViewHomeStep2: UI_View
 		base.OnWillBeShown ();
 
 	}
-
-  
+    
     public override void OnShowFinished ()
 	{
         base.OnShowFinished();

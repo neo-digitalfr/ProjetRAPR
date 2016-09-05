@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Vuforia;
 
 public class UI_HomeManager : UI_Manager 
 {
@@ -40,6 +41,7 @@ public class UI_HomeManager : UI_Manager
         }
         else if (viewType == typeof(UI_ViewHomeStep2))
         {
+            VuforiaBehaviour.Instance.enabled = true;
             ((UI_TweenPosition)m_viewHomeStep2.m_tweenShow).m_vFrom = new Vector3(0, 0, 0);
             ((UI_TweenPosition)m_viewHomeStep2.m_tweenHide).m_vTo = new Vector3(-1, 0, 0);
             HideView(m_viewHomeStep2);
@@ -52,6 +54,7 @@ public class UI_HomeManager : UI_Manager
         ShowViewBack(m_viewBg, AnimationViewType.NONE);
         ShowView<UI_ViewLoading>();
         ShowView<UI_ViewHomeStep1>();
+        VuforiaBehaviour.Instance.enabled = false;
     }
 
     #region SINGLETON
