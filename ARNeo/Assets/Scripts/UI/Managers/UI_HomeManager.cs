@@ -52,7 +52,7 @@ public class UI_HomeManager : UI_Manager
     private void Start()
     {
         ShowViewBack(m_viewBg, AnimationViewType.NONE);
-        ShowView<UI_ViewLoading>();
+        //ShowView<UI_ViewLoading>();
         ShowView<UI_ViewHomeStep1>();
         VuforiaBehaviour.Instance.enabled = false;
     }

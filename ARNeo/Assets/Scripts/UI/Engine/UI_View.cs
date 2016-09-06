@@ -20,7 +20,7 @@ public class UI_View : MonoBehaviour
 	public UI_Tweener m_tweenShow;
 
 	public UI_Tweener m_tweenHide;
-    protected  DeviceOrientation curOrientation;
+    protected  DeviceOrientation curOrientation = Input.deviceOrientation;
     /// <summary>
     /// Show the specified _eAnimationViewType. Only called by the UIManager, don't call it, uimanager call it in the PopView() and PushView()
     /// </summary>
@@ -87,16 +87,16 @@ public class UI_View : MonoBehaviour
 
     protected virtual void Update()
     {
-        if(Input.deviceOrientation != curOrientation || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.A))
+        if(Input.deviceOrientation != curOrientation )
         {            
-            if ((ScreenOrientation)Input.deviceOrientation == ScreenOrientation.LandscapeLeft || (ScreenOrientation)Input.deviceOrientation == ScreenOrientation.LandscapeRight ||  Input.GetKey(KeyCode.Space))
+            if ((ScreenOrientation)Input.deviceOrientation == ScreenOrientation.LandscapeLeft || (ScreenOrientation)Input.deviceOrientation == ScreenOrientation.LandscapeRight)
             {
                 for(int i = 0;i < m_tTweensLandscape.Length;++i)
                 {
                     m_tTweensLandscape[i].TweenIn(true);
                 }
             }
-            else if ((ScreenOrientation)Input.deviceOrientation == ScreenOrientation.Portrait || (ScreenOrientation)Input.deviceOrientation == ScreenOrientation.PortraitUpsideDown || Input.GetKey(KeyCode.A))
+            else if ((ScreenOrientation)Input.deviceOrientation == ScreenOrientation.Portrait || (ScreenOrientation)Input.deviceOrientation == ScreenOrientation.PortraitUpsideDown)
             {
                 for (int i = 0; i < m_tTweensLandscape.Length; ++i)
                 {
