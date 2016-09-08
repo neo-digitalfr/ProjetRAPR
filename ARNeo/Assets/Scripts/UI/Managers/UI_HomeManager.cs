@@ -18,11 +18,11 @@ public class UI_HomeManager : UI_Manager
             ShowViewAndHideAll(m_viewLoading, AnimationViewType.NONE);
         else if (viewType == typeof(UI_ViewHomeStep1))
         {
-            if(m_curPopedView == m_viewHomeStep2)
+            /*if(m_curPopedView == m_viewHomeStep2)
             {
                 ((UI_TweenPosition)m_viewHomeStep1.m_tweenShow).m_vFrom = ((UI_TweenPosition)m_viewHomeStep1.m_tweenHide).m_vTo;
                 ((UI_TweenPosition)m_viewHomeStep2.m_tweenHide).m_vTo = ((UI_TweenPosition)m_viewHomeStep2.m_tweenShow).m_vFrom;
-            }
+            }*/
             ShowViewAndHideAll(m_viewHomeStep1);
         }
         else if (viewType == typeof(UI_ViewHomeStep2))
@@ -49,11 +49,23 @@ public class UI_HomeManager : UI_Manager
         }
     }
 
+    private void Swipe(MiniGestureRecognizer.SwipeDirection swipe)
+    {
+        if(swipe == MiniGestureRecognizer.SwipeDirection.Left)
+        {
+            if (m_curPopedView == m_viewHomeStep1)
+                ShowView<UI_ViewHomeStep2>();
+            else
+                HideView<UI_ViewHomeStep2>();
+        } 
+    }
+
     private void Start()
     {
+        MiniGestureRecognizer.Swipe += Swipe;
         ShowViewBack(m_viewBg, AnimationViewType.NONE);
-        //ShowView<UI_ViewLoading>();
-        ShowView<UI_ViewHomeStep1>();
+        ShowView<UI_ViewLoading>();
+        //ShowView<UI_ViewHomeStep1>();
         VuforiaBehaviour.Instance.enabled = false;
     }
 

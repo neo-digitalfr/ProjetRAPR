@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Misc\ExtensionMethods.cs" />
     <Compile Include="Assets\Scripts\Misc\FPSCounter.cs" />
     <Compile Include="Assets\Scripts\Misc\HUDFPS.cs" />
+    <Compile Include="Assets\Scripts\Misc\MiniGestureRecognizer.cs" />
     <Compile Include="Assets\Scripts\TWEAK\TWEAK_EnableLight.cs" />
     <Compile Include="Assets\Scripts\TWEAK\TWEAK_IgnoreTimeScale.cs" />
     <Compile Include="Assets\Scripts\UI\Engine\UI_LocalisedText.cs" />

@@ -17,7 +17,8 @@ public class UI_ViewLoading : UI_View
 	public override void OnWillBeShown ()
 	{
 		base.OnWillBeShown ();
-		if(m_bInstantLoad)
+
+        /*if(m_bInstantLoad)
 		{
 			if(m_sLevelToLoad != "" && m_sLevelToLoad != null)
 			{
@@ -26,8 +27,16 @@ public class UI_ViewLoading : UI_View
 				m_sLevelToLoad = "";
 				Time.timeScale = 1f;
 			}
-		}
+		}*/
+        StartCoroutine(LoadView());
+
 	}
+
+    private IEnumerator LoadView()
+    {
+        yield return new WaitForSeconds(1f);
+        UI_HomeManager.GetInstance().ShowView<UI_ViewHomeStep1>();
+    }
 
     IEnumerator AsynchronousLoad(string scene)
     {

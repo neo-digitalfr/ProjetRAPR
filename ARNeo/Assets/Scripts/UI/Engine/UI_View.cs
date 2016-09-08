@@ -20,7 +20,7 @@ public class UI_View : MonoBehaviour
 	public UI_Tweener m_tweenShow;
 
 	public UI_Tweener m_tweenHide;
-    protected  DeviceOrientation curOrientation = Input.deviceOrientation;
+    protected  DeviceOrientation curOrientation;
     /// <summary>
     /// Show the specified _eAnimationViewType. Only called by the UIManager, don't call it, uimanager call it in the PopView() and PushView()
     /// </summary>
@@ -137,7 +137,8 @@ public class UI_View : MonoBehaviour
 	{
 		if(!m_bIsInit)
 		{
-			if(m_tweenShow && m_tweenShow.m_onEnd == null)
+            DeviceOrientation curOrientation = Input.deviceOrientation;
+            if (m_tweenShow && m_tweenShow.m_onEnd == null)
 				m_tweenShow.m_onEnd.AddListener(OnShowFinished);
 			m_canvasGroup = GetComponent<CanvasGroup>();
 			if(!m_canvasGroup)
