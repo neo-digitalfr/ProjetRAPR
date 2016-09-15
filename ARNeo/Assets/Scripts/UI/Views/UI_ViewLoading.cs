@@ -34,7 +34,12 @@ public class UI_ViewLoading : UI_View
 
     private IEnumerator LoadView()
     {
-        yield return new WaitForSeconds(1f);
+#if UNITY_EDITOR
+        yield return new WaitForSeconds(0f);
+#else
+        yield return new WaitForSeconds(3f);
+#endif
+        
         UI_HomeManager.GetInstance().ShowView<UI_ViewHomeStep1>();
     }
 

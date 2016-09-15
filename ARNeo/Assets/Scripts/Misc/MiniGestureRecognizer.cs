@@ -14,57 +14,64 @@ public class MiniGestureRecognizer : MonoBehaviour
         Right,
         Left
     }
-
+    public static bool isActive=true;
     public static event Action<SwipeDirection> Swipe;
     private bool swiping = false;
     private bool eventSent = false;
     private Vector2 lastPosition;
+    public static Vector2 direction;
 
     void Update()
     {
-        if (Input.touchCount == 0)
-            return;
-
-        if (Input.GetTouch(0).deltaPosition.sqrMagnitude != 0)
+        if (isActive)
         {
-            if (swiping == false)
-            {
-                swiping = true;
-                lastPosition = Input.GetTouch(0).position;
+            if (Input.touchCount == 0)
+                direction = Vector2.zero;
                 return;
-            }
-            else
+
+            if (Input.GetTouch(0).deltaPosition.sqrMagnitude != 0)
             {
-                if (!eventSent)
+                if (swiping == false)
                 {
-                    if (Swipe != null)
+                    swiping = true;
+                    lastPosition = Input.GetTouch(0).position;
+                    return;
+                }
+                else
+                {
+                    if (!eventSent)
                     {
-                        Vector2 direction = Input.GetTouch(0).position - lastPosition;
-
-                        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+                        if (Swipe != null)
                         {
-                            if (direction.x > 0)
-                                Swipe(SwipeDirection.Right);
-                            else
-                                Swipe(SwipeDirection.Left);
-                        }
-                        else
-                        {
-                            if (direction.y > 0)
-                                Swipe(SwipeDirection.Up);
-                            else
-                                Swipe(SwipeDirection.Down);
-                        }
+                            direction += Input.GetTouch(0).position - lastPosition;
 
-                        eventSent = true;
+
+
+                            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+                            {
+                                if (direction.x > 100)
+                                    Swipe(SwipeDirection.Right);
+                                else if (direction.x < -100)
+                                    Swipe(SwipeDirection.Left);
+                            }
+                            else
+                            {
+                                if (direction.y > 0)
+                                    Swipe(SwipeDirection.Up);
+                                else
+                                    Swipe(SwipeDirection.Down);
+                            }
+
+                            eventSent = true;
+                        }
                     }
                 }
             }
-        }
-        else
-        {
-            swiping = false;
-            eventSent = false;
+            else
+            {
+                swiping = false;
+                eventSent = false;
+            }
         }
     }
 }

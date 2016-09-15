@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="marqueur30" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur29" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur28" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur27" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur26" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur25" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur24" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur23" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur22" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur20" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur19" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur18" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur17" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur16" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur15" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur14" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur13" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur12" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur11" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur10" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur09" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur08" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur07" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur06" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur01" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur02" size="1.000000 1.003688" />
+    <ImageTarget name="marqueur03" size="1.000000 0.997413" />
     <ImageTarget name="marqueur04" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur03" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur02" size="1.000000 1.000000" />
-    <ImageTarget name="marqueur21" size="1.000000 1.000000" />
     <ImageTarget name="marqueur05" size="1.000000 0.997130" />
-    <ImageTarget name="marqueur01" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur06" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur07" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur08" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur09" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur10" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur11" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur12" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur13" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur14" size="1.000000 1.008811" />
+    <ImageTarget name="marqueur15" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur16" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur17" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur18" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur19" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur20" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur21" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur22" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur23" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur24" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur25" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur26" size="1.000000 0.990933" />
+    <ImageTarget name="marqueur27" size="1.000000 1.000000" />
+    <ImageTarget name="marqueur28" size="1.000000 1.003132" />
+    <ImageTarget name="marqueur29" size="1.000000 0.997130" />
+    <ImageTarget name="marqueur30" size="1.000000 1.004152" />
   </Tracking>
 </QCARConfig>
